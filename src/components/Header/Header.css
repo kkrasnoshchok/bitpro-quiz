@@ -1,13 +1,13 @@
 .header {
-  width: 100vw;
-  height: 10vh;
-  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  
+  width: 100vw;
+  height: 10vh;
 }
 
 .headerLogo img {
   width: 200px;
 }
-

@@ -7,6 +7,7 @@ import "./QuizPage.css";
 function QuizPage(props) {
   const [loading, setLoading] = useState(false);
 
+  // hook useEffect для лоадера
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {

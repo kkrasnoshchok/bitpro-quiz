@@ -4,6 +4,7 @@ import FinalPage from "./FinalPage/FinalPage";
 import QuizPage from "./QuizPage/QuizPage";
 
 export default class Quiz extends Component {
+  // объект с данными
   state = {
     questions: {
       1: "Do you have an experience in investment?",
@@ -34,6 +35,7 @@ export default class Quiz extends Component {
     step: 1,
     score: 0,
   };
+  // функция переключения вопросов
   nextStep = (step) => {
     this.setState({
       step: step + 1,
