@@ -1,0 +1,67 @@
+.finalPage {
+    height: 90vh;
+    background:rgba(236, 240, 245, 1);
+}
+
+.finalInner {
+    height: 100%;
+    padding: 0px 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.finalTitle {
+    margin-top: 10px;
+    padding: 10px 35px;
+    font-size: 25px;
+}
+
+.finalDescription p {
+    margin: 15px 0 10px;
+    padding: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .35);
+}
+
+.finalLink {
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 40px;
+    background: linear-gradient(#f09038, rgba(242, 31, 81, 1));
+    box-shadow: 0px 0px 10px rgba(242, 31, 81, 1);
+}
+
+
+.finalLink a {
+    background: linear-gradient(#f09038, rgba(242, 31, 81, 1));
+    padding: 5px 20px;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    border: 2px solid #fff;
+}
+
+.arrowIconFinal {
+    font-size: 60px;
+    animation: iconButtonAnimation 1s ease-in-out infinite;
+}
+
+@keyframes iconButtonAnimation {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
