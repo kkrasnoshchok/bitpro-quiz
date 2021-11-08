@@ -13,25 +13,28 @@ export default function Start() {
     <div className="start">
       <main className="startMain main">
         <div className="mainTitle title">
-          <strong>Welcome</strong>
-          <p>to our App</p>
+          <strong>Καλώς ορίσατε</strong>
+          <p>στην εφαρμογή μας</p>
         </div>
         <div className="mainDescription description">
           <p className>
-            <strong>Start making money</strong> from any place, wherever you
-            are, to that end{" "}
-            <strong>you need just smartphone an Internet.</strong>
+            <strong>Ξεκινήστε να κερδίζετε</strong> από το οποιοδήποτε μέρος
+            όπου και να βρίσκεστε ,
+            <strong>
+              γι αυτό χρειάζεστε μόνο το κινητό σας και το Ίντερνετ .
+            </strong>
           </p>
           <p className>
-            With an eye to <strong>register</strong> you need{" "}
-            <strong>to answer the several simple questions.</strong>
+            Για να φτιάξετε
+            <strong>λογαριασμό</strong> πρέπει ν
+            <strong>απαντήσετε σε μερικές εύκολες ερωτήσεις</strong>
           </p>
         </div>
 
         <div className="mainButton">
           <button onClick={setQuizState}>
-            <p>continue</p>
-            <IoIosArrowForward className="arrowIcon"/>
+            <p>Συνέχεια</p>
+            <IoIosArrowForward className="arrowIcon" />
           </button>
         </div>
       </main>

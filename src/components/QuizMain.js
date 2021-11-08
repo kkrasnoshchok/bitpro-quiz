@@ -7,28 +7,28 @@ export default class Quiz extends Component {
   // объект с данными
   state = {
     questions: {
-      1: "Do you have an experience in investment?",
-      2: "Do you have a cryptocurreny wallet?",
-      3: "Do you have a continuous access to your Smartphone and the Internet?",
-      4: "After registration, your personal manager will call you, are you ready to speak on the telephone with him?",
+      1: "Έχετε επενδυτική εμπειρία;",
+      2: "Έχετε πορτοφόλι κρυπτονομισμάτων;",
+      3: "Έχετε απεριόριστο Ίντερνετ στο κινητό Σας;",
+      4: "Έπειτα την εγγραφή θα Σας καλέσει ο μάνατζερ σας,θα είστε έτοιμη να μιλήσετε στο τηλέφωνο ;",
     },
     answers: {
       1: {
-        1: "Yes",
-        2: "No",
-        3: "I am at loss to answer",
+        1: "Ναι",
+        2: "Οχι",
+        3: "Δυσκολεύομαι ν απαντήσω",
       },
       2: {
-        1: "Yes",
-        2: "No",
+        1: "Ναι",
+        2: "Οχι",
       },
       3: {
-        1: "Yes",
-        2: "No",
+        1: "Ναι",
+        2: "Οχι",
       },
       4: {
-        1: "Yes",
-        2: "No",
+        1: "Ναι",
+        2: "Οχι",
       },
     },
     clickedAnswer: 0,

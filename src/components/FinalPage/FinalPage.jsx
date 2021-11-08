@@ -8,19 +8,20 @@ export default function FinalPage(props) {
       <div className="finalInner">
         <div className="finalDescription description">
           <p>
-            With the object of starting to make money, you need to restock your
-            trading deposit at the minimum
+            Για να αρχίσετε να κερδίζεται , πρέπει να καταθέσετε το ποσό
+            τουλάχιστον
           </p>
         </div>
-        <div className="finalTitle title">by 250$</div>
+        <div className="finalTitle title">200€</div>
         <div className="finalDescription description">
           <p>
-            that is completely your funds that you can siphon at any moment:
+            είναι εντελώς τα χρήματα σας , τα οποία ανα πάσα στιγμή μπορείτε να
+            αποσύρεται
           </p>
         </div>
         <div className="finalLink">
           <a href="https://domfir.xyz/yfnLpB" target="_blank" rel="noreferrer">
-            <p>Proceed to registration on trader account</p>
+            <p>Μεταβείτε στην εγγραφή λογαριασμού σας.</p>
             <IoIosArrowForward className="arrowIconFinal" />
           </a>
         </div>
